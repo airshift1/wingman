@@ -1,0 +1,11 @@
+{
+  "name": "wingman",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wingman — static site + Supabase backend, hosted on Vercel",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/build.js && node scripts/serve.js"
+  },
+  "engines": { "node": ">=18" }
+}
